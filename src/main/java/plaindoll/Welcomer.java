@@ -8,6 +8,6 @@ public class Welcomer{
 		return "Farewell, good hunter. May you find your worth in waking world.";
 	}
 	public String Proizvol_replika() {
-		return "Proizvol_replika";
+		return "Proizvol_replika Hunter";
 	}
 }
