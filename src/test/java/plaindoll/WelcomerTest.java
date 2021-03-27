@@ -22,5 +22,11 @@ public class WelcomerTest {
 		assertThat(welcomer.sayWelcome(), containsString("hunter"));
 		assertThat(welcomer.sayFarewell(), containsString("hunter"));
 	}
+	
+	@Test
+	public void welcomerProizvol_replika() {
+		assertThat(welcomer.Proizvol_replika(), containsString("hunter"));
+	}
+
 
 }
